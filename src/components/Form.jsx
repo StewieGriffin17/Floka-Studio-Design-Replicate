@@ -104,7 +104,7 @@ const Form = () => {
                 <div
                     className="rounded-[20px] sm:rounded-[28px] overflow-hidden relative min-h-[min(100vh,520px)] sm:min-h-[480px] flex items-stretch py-6 px-4 sm:p-8 md:p-10 bg-[#111]"
                     style={{
-                        backgroundImage: `linear-gradient(105deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.55) 48%, rgba(0,0,0,0.25) 100%), url('/src/assets/form_img.jpg')`,
+                        backgroundImage: `linear-gradient(105deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.55) 48%, rgba(0,0,0,0.25) 100%), url('../../public/form_img.jpg')`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                     }}

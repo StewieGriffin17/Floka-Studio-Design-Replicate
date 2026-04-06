@@ -115,9 +115,9 @@ const Feedback = () => {
             <h2 className="max-w-full lg:max-w-[780px] w-full text-[clamp(1.5rem,5vw,3rem)] leading-[1.1] font-medium text-[#1a1a1a] text-left m-0">
               Accelerating growth, and unlocking new potential.{' '}
               <span className="inline-flex items-center align-middle mr-1 sm:mr-2 gap-0 flex-wrap">
-                <img src="/src/assets/avatar1.webp" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white -mr-2 sm:-mr-2.5 z-[3] relative object-cover" alt="" />
-                <img src="/src/assets/avatar2.webp" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white -mr-2 sm:-mr-2.5 z-[2] relative object-cover" alt="" />
-                <img src="/src/assets/avatar3.webp" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white z-[1] relative object-cover" alt="" />
+                <img src="../../public/avatar1.webp" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white -mr-2 sm:-mr-2.5 z-[3] relative object-cover" alt="" />
+                <img src="../../public/avatar2.webp" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white -mr-2 sm:-mr-2.5 z-[2] relative object-cover" alt="" />
+                <img src="../../public/avatar3.webp" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white z-[1] relative object-cover" alt="" />
               </span>{' '}
               Let&apos;s build your brand—together.
             </h2>

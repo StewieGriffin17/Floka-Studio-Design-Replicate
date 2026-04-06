@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const testimonials = [
-    { img: "/src/assets/avatar1.webp", text: "“ 10/10 well recommanded ”" },
-    { img: "/src/assets/avatar2.webp", text: "“ Super speedy website designer ”" },
-    { img: "/src/assets/avatar3.webp", text: "“ Great in UI/UX ”" },
-    { img: "/src/assets/avatar4.webp", text: "“ Best design communicator ”" },
+    { img: "../../public/avatar1.webp", text: "“ 10/10 well recommanded ”" },
+    { img: "../../public/avatar2.webp", text: "“ Super speedy website designer ”" },
+    { img: "../../public/avatar3.webp", text: "“ Great in UI/UX ”" },
+    { img: "../../public/avatar4.webp", text: "“ Best design communicator ”" },
 ];
 
 const Marquee2 = () => {

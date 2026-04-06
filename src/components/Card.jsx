@@ -39,7 +39,7 @@ const Card = () => {
                         <CircularText
                             text="MORE · PLAYFUL · LUXURIOUS ·"
                             spinDuration={25}
-                            centerImage="/src/assets/logo2.png"
+                            centerImage="../../public/logo2.png"
                             radius={45}
                         />
                     </div>
@@ -85,7 +85,7 @@ const Card = () => {
                         <div className="flex -space-x-2 mb-4 justify-center md:justify-start">
                             {[1, 2, 3, 4].map((n) => (
                                 <div key={n} className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
-                                    <img src={`/src/assets/avatar${n}.webp`} alt="user" className="w-full h-full object-cover" />
+                                    <img src={`../../public/avatar${n}.webp`} alt="user" className="w-full h-full object-cover" />
                                 </div>
                             ))}
                         </div>
@@ -106,7 +106,7 @@ const Card = () => {
                     {/* Image wrapper allows overflow */}
                     <div className="absolute top-0 left-0 w-full h-full overflow-visible">
                         <img
-                            src="/src/assets/card_section_img1.webp"
+                            src="../../public/card_section_img1.webp"
                             alt="CEO"
                             className="absolute md:top-[-230px] md:left-[-130px] top-[-130px] left-[-50px] scale-55 object-center "
                         />

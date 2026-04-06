@@ -5,27 +5,27 @@ import ScrollMarquee from './ScrollMarquee';
 
 const FAQItems = [
   {
-    img: "/src/assets/faq1.webp",
+    img: "../../public/faq1.webp",
     title: "What is artificial intelligence (AI)?",
     text: "Explore how we transform ideas into extraordinary digital experiences. Each case study is a testament to our design thinking, strategic approach, and creative execution.",
   },
   {
-    img: "/src/assets/faq2.webp",
+    img: "../../public/faq2.webp",
     title: "How does AI improve business efficiency?",
     text: "Explore how we transform ideas into extraordinary digital experiences. Each case study is a testament to our design thinking, strategic approach, and creative execution.",
   },
   {
-    img: "/src/assets/faq3.jpg",
+    img: "../../public/faq3.jpg",
     title: "How long does AI implementation take?",
     text: "Explore how we transform ideas into extraordinary digital experiences. Each case study is a testament to our design thinking, strategic approach, and creative execution.",
   },
   {
-    img: "/src/assets/faq4.jpg",
+    img: "../../public/faq4.jpg",
     title: "What industries can benefit from AI?",
     text: "Explore how we transform ideas into extraordinary digital experiences. Each case study is a testament to our design thinking, strategic approach, and creative execution.",
   },
   {
-    img: "/src/assets/faq5.jpg",
+    img: "../../public/faq5.jpg",
     title: "What are the costs of AI solutions?",
     text: "Explore how we transform ideas into extraordinary digital experiences. Each case study is a testament to our design thinking, strategic approach, and creative execution.",
   },
@@ -73,7 +73,7 @@ const FAQ = () => {
               className="rounded-[20px] sm:rounded-[24px] overflow-hidden w-full"
             >
               <img
-                src="/src/assets/faq_main.jpg"
+                src="../../public/faq_main.jpg"
                 alt="FAQ"
                 className="w-full h-[220px] sm:h-[280px] lg:h-[300px] object-cover block"
               />

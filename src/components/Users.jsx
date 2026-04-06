@@ -61,7 +61,7 @@ const Users = () => {
                 onMouseLeave={() => setHovered(false)}
             >
                 <img
-                    src="/src/assets/users.webp"
+                    src="../../public/users.webp"
                     alt="Video Reel"
                     className="w-full h-auto object-cover transition-all duration-700 ease-out group-hover:scale-110 group-hover:blur-sm group-hover:brightness-75"
                 />

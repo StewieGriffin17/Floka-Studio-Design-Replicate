@@ -2,10 +2,10 @@ import React, { useState, useRef } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 
 const teamMembers = [
-  { id: 1, name: "Nicolas K. Ellington", role: "FOUNDER", img: "/src/assets/member1.png" },
-  { id: 2, name: "Carlos E. Ashcroft", role: "CEO", img: "/src/assets/member2.png" },
-  { id: 3, name: "Leonardo F. Ashton", role: "UX DESIGNER", img: "/src/assets/member3.png" },
-  { id: 4, name: "Ricardo P. Winslow", role: "UI DESIGNER", img: "/src/assets/member4.png" },
+  { id: 1, name: "Nicolas K. Ellington", role: "FOUNDER", img: "../../public/member1.png" },
+  { id: 2, name: "Carlos E. Ashcroft", role: "CEO", img: "../../public/member2.png" },
+  { id: 3, name: "Leonardo F. Ashton", role: "UX DESIGNER", img: "../../public/member3.png" },
+  { id: 4, name: "Ricardo P. Winslow", role: "UI DESIGNER", img: "../../public/member4.png" },
 ];
 
 const MemberCard = ({ member, index }) => {
@@ -184,7 +184,7 @@ const Team = () => {
               style={{ y: imgY }}
             >
               <img
-                src="/src/assets/team.webp"
+                src="../../public/team.webp"
                 alt="Team"
                 className="w-full h-[180px] sm:h-[210px] object-cover block rounded-[20px] sm:rounded-[24px]"
               />
