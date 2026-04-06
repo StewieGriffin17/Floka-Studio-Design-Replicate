@@ -35,7 +35,7 @@ const Navbar = () => {
 
           <div className="flex-none flex items-center px-4 sm:px-6 py-4">
             <a href="/">
-              <img src="../../public/logo.png" alt="logo" className="h-8 sm:h-10" />
+              <img src="/logo.png" alt="logo" className="h-8 sm:h-10" />
             </a>
           </div>
 
@@ -135,7 +135,7 @@ const Navbar = () => {
       <nav className="lg:hidden bg-white shadow-sm text-[#202020]">
         <div className="flex items-center justify-between px-4 py-3">
           <a href="/">
-            <img src="../../public/logo.png" alt="logo" className="h-9" />
+            <img src="/logo.png" alt="logo" className="h-9" />
           </a>
 
           <div className="flex items-center gap-2">
@@ -227,7 +227,7 @@ const Navbar = () => {
                 Our approach is straightforward— prioritizing functionality, speed, and clarity for solutions.
               </h1>
               <img
-                src="../../public/modal_img.jpg"
+                src="/modal_img.jpg"
                 alt="preview"
                 className="mt-6 sm:mt-8 rounded-xl w-full object-cover max-h-48 sm:max-h-64 md:max-h-none"
               />
@@ -250,7 +250,7 @@ const Navbar = () => {
                 text="WANT IT TO SOUND PLAYFUL, LUXURIOUS, OR MORE"
                 spinDuration={15}
                 onHover="speedUp"
-                centerImage="../../public/logo3.png"
+                centerImage="/logo3.png"
                 radius={90}
               />
             </div>

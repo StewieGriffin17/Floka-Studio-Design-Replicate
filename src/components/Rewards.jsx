@@ -48,7 +48,7 @@ const Rewards = () => {
             <motion.img 
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              src="../../public/rewards.jpg" 
+              src="/rewards.jpg" 
               alt="Team" 
               className="w-full h-auto object-cover"
             />

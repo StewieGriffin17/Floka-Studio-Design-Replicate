@@ -8,7 +8,7 @@ const Hero = () => {
 
                 <video
                     className="w-full h-full object-cover"
-                    src="../../public/home-1-video.mp4"
+                    src="/home-1-video.mp4"
                     autoPlay
                     loop
                     muted
@@ -45,7 +45,7 @@ const Hero = () => {
 
                                 <div className="w-full sm:w-[120px] md:w-[140px] aspect-square sm:aspect-auto sm:h-[120px] md:h-[140px] flex-shrink-0 mx-auto sm:mx-0">
                                     <img
-                                        src="../../public/home_card.jpg"
+                                        src="/home_card.jpg"
                                         alt="home_card"
                                         className="w-full h-full object-cover rounded-lg"
                                     />

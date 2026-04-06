@@ -26,7 +26,7 @@ const ScrollMarquee = () => {
         {[...Array(20)].map((_, i) => (
           <img 
             key={i}
-            src="../../public/marquee.png" 
+            src="/marquee.png" 
             alt="Marquee Graphic"
             className="h-[8px] sm:h-[10px] w-auto object-contain block shrink-0"
           />

@@ -73,7 +73,7 @@ const Facts = () => {
           <div className="overflow-hidden rounded-[24px] group h-full">
             <img
               ref={imageRef}
-              src="../../public/fact1.webp"
+              src="/fact1.webp"
               className="w-full h-full object-cover transition duration-500 group-hover:scale-105 group-hover:blur-[4px]"
               alt=""
             />

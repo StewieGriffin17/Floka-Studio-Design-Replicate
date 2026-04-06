@@ -53,7 +53,7 @@ const Footer = () => {
                             text="WANT IT TO SOUND PLAYFUL, LUXURIOUS, OR MORE"
                             spinDuration={15}
                             onHover="speedUp"
-                            centerImage="../../public/logo3.png"
+                            centerImage="/logo3.png"
                             radius={90}
                         />
                     </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                     >
                         <div className="w-full aspect-[4/3] sm:h-[400px] lg:h-[500px] max-h-[70vh] rounded-[20px] sm:rounded-[24px] overflow-hidden relative">
                             <img
-                                src="../../public/footer.jpg"
+                                src="/footer.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />

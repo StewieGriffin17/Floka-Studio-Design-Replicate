@@ -7,21 +7,21 @@ const blogPosts = [
     category: "WEB3",
     date: "NOV 07, 2025",
     title: "Seamless user interfaces, crafted with intent.",
-    img: "../../public/blog1.webp",
+    img: "/blog1.webp",
     type: "text-top"
   },
   {
     category: "WEB3",
     date: "NOV 07, 2025",
     title: "Creative web platforms, designed for growth.",
-    img: "../../public/blog2.webp",
+    img: "/blog2.webp",
     type: "text-bottom"
   },
   {
     category: "WEB3",
     date: "NOV 07, 2025",
     title: "Immersive virtual journeys, built with precision",
-    img: "../../public/blog3.webp",
+    img: "/blog3.webp",
     type: "text-top"
   }
 ];
